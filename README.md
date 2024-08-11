@@ -1,0 +1,2 @@
+# Predicting-National-Energy-Consumption-A-Comprehensive-Multi-Forecasting-Approach
+This project focuses on predicting national energy consumption for various countries over the next five years using a comprehensive multi-forecasting approach. By analyzing historical energy consumption data, the project employs and compares several forecasting models to determine the most accurate method for future energy needs.
