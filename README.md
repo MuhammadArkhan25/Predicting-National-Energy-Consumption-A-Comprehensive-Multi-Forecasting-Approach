@@ -23,10 +23,44 @@ To set up the project environment, follow these steps:
    ```bash
     python -m venv env
     source env/bin/activate   # On Windows use: env\Scripts\activate
-2. **Install Dependencies:**
-3. Ensure you have the required libraries. Install them using:
+3. **Install Dependencies:**
+   Ensure you have the required libraries. Install them using:
    ```bash
     pip install -r requirements.txt
+
+## Usage
+
+1. **Open the Notebook:**
+   Open the notebook in Google Colab or Jupyter Notebook:
+   [Open Notebook](https://colab.research.google.com/drive/1wLqVN8o9G5opUd996jLOxpXdlQ7v6vMb?usp=sharing)
+
+2. **Run the Cells:**
+   Execute each cell in the notebook sequentially to perform the following:
+   - **Load and preprocess the data**: Import and clean historical energy consumption data.
+   - **Apply Forecasting Models**:
+     - **ARIMA Model**: Generate forecasts using the ARIMA model.
+     - **Prophet Model**: Forecast energy consumption using the Prophet model, accounting for seasonality and holidays.
+     - **Darts Model**: Apply various models from the Darts library for forecasting.
+   - **Generate forecasts and evaluate model performance**: Compare model forecasts and evaluate their accuracy using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+
+3. **View Results:**
+   The notebook provides forecasts and performance metrics, including MAE and RMSE. Results and visualizations will be displayed directly in the notebook.
+
+## Results
+
+The notebook will output:
+- **Forecasted Energy Consumption Values**: Predictions for energy consumption over the next five years.
+- **Comparative Analysis**: Evaluation of ARIMA, Prophet, and Darts models to determine the most effective forecasting method.
+- **Performance Metrics**: Includes Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) for each model to assess their accuracy.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to the creators of ARIMA, Prophet, and Darts for their contributions to time series forecasting.
+
 
 
 
