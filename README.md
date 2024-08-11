@@ -3,8 +3,8 @@ This project focuses on predicting national energy consumption for various count
 # Key Features:
 - Data Source: Historical energy consumption data for multiple countries.
 - Forecasting Models:
-    a.ARIMA: Captures temporal dependencies.
-    b.Prophet: Handles seasonality and holidays.
-    c.Darts: Offers a range of models including neural networks and traditional methods.
+    - ARIMA: Captures temporal dependencies.
+    - Prophet: Handles seasonality and holidays.
+    - Darts: Offers a range of models including neural networks and traditional methods.
 - Prediction Horizon: Forecasts for the next five years.
 - Evaluation Metrics: Assesses performance using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
