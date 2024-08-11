@@ -1,5 +1,13 @@
 # Predicting National Energy Consumption: A Comprehensive Multi-Forecasting Approach
 
+![Build Status](https://img.shields.io/github/actions/workflow/status/MuhammadArkhan25/Predicting-National-Energy-Consumption-A-Comprehensive-Multi-Forecasting-Approach/build.yml)
+![Coverage Status](https://img.shields.io/coveralls/github/MuhammadArkhan25/Predicting-National-Energy-Consumption-A-Comprehensive-Multi-Forecasting-Approach)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=MuhammadArkhan25&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadArkhan25&layout=compact)
+
+
 ## Description
 
 This project aims to predict national energy consumption for various countries over the next five years using a comprehensive multi-forecasting approach. The notebook leverages historical energy consumption data and applies three forecasting models—ARIMA, Prophet, and Darts—to evaluate their performance and determine the most effective method for future predictions.
