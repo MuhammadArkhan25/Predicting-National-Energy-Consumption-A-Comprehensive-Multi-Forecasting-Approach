@@ -62,5 +62,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Special thanks to the creators of ARIMA, Prophet, and Darts for their contributions to time series forecasting.
 
 
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=muhammadarkhan25&show_icons=true&theme=radical)
+
+
 
 
